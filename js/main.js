@@ -271,7 +271,7 @@ class PowerCalculator extends BaseCalculator {
 
   performCalculation() {
     let numberInput = parseFloat(this.querySelector("#number").value),
-        exponents = ["²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "⁹⁰"];
+        exponents = ["²", "³", "⁴", "⁵", "⁶", "⁷", "⁸", "⁹", "¹⁰"];
     this.resultList.innerHTML = "";
     this.spinnerContainer.classList.remove("hidden");
     this.calcButton.disabled = true;
